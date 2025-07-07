@@ -25,6 +25,5 @@ Este portafolio cuenta con un diseño responsivo y moderno que incluye animacion
 - Estilos desarrollados con **CSS puro** usando variables (`:root`).
 - Iconos de **Boxicons** y tipografía **Poppins** de Google Fonts.
 
-
-
-
+### GitHub Pages
+https://jonathanser.github.io/portafolio-ejemplo/
