@@ -35,3 +35,16 @@ Este portafolio cuenta con un diseño responsivo y moderno que incluye animacion
   <a href="#portafolio">Portafolio</a>
   <a href="#contacto">Contacto</a>
 </nav>
+
+```js
+const resumenBtns = document.querySelectorAll('.resumen-btn');
+resumenBtns.forEach((btn, idx) => {
+  btn.addEventListener('click', () => {
+    const resumenDetalles = document.querySelectorAll('.resumen-detalle');
+    resumenBtns.forEach(btn => btn.classList.remove('activo'));
+    resumenDetalles.forEach(detalle => detalle.classList.remove('activo'));
+    btn.classList.add('activo');
+    resumenDetalles[idx].classList.add('activo');
+  });
+});
+```
